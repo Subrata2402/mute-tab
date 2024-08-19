@@ -1,0 +1,20 @@
+{
+   "manifest_version": 3,
+   "name": "Mute Tab",
+   "version": "1.0",
+   "description": "Mute or unmute a particular tab",
+   "permissions": [
+      "activeTab",
+      "tabGroups"
+   ],
+   "background": {
+      "service_worker": "background.js"
+   },
+   "action": {
+      "default_icon": {
+         "16": "images/unmute_16.png",
+         "48": "images/unmute_48.png",
+         "128": "images/unmute_128.png"
+      }
+   }
+}
